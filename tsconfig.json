@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",                  // Set the target ECMAScript version to ES6
+    "module": "ESNext",               // Use ESNext for modern module syntax (import/export)
+    "moduleResolution": "node",
+    "strict": true,                   // Enable strict type-checking options
+    "esModuleInterop": true,          // Ensure compatibility with CommonJS modules
+    "skipLibCheck": true,             // Skip type checking of all declaration files (faster compilation)
+    "outDir": "./dist"                // Output directory for compiled JavaScript files
+  },
+  "include": ["src/**/*"]             // Include all files in the src directory
+}
