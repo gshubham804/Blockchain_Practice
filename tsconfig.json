@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "es6",                  // Set the target ECMAScript version to ES6
-    "module": "ESNext",               // Use ESNext for modern module syntax (import/export)
-    "moduleResolution": "node",
+    "module": "commonjs",               // Use ESNext for modern module syntax (import/export)
+    "moduleResolution": "Node",
     "strict": true,                   // Enable strict type-checking options
     "esModuleInterop": true,          // Ensure compatibility with CommonJS modules
     "skipLibCheck": true,             // Skip type checking of all declaration files (faster compilation)

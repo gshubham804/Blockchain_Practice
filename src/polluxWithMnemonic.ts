@@ -1,8 +1,8 @@
-import * as bip39 from "bip39";
-import hdkey from "hdkey";
-import { ec as EC } from "elliptic";
-import CryptoJS from "crypto-js";
-import bs58 from "bs58";
+const bip39 = require('bip39');
+const EC = require('elliptic').ec;
+const hdkey = require("hdkey");
+const CryptoJS = require("crypto-js");
+const bs58= require("bs58");
 
 // Initialize the elliptic curve secp256k1
 const ec = new EC("secp256k1");

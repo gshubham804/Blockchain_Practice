@@ -1,5 +1,5 @@
-import { ec as EC } from "elliptic";
-import CryptoJS from "crypto-js";
+const EC = require("elliptic").ec;
+const CryptoJS = require("crypto-js");
 
 // Initialize the elliptic curve secp256k1
 const ec = new EC("secp256k1");
